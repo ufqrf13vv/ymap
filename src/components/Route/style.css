@@ -1,0 +1,33 @@
+.route {
+  flex-grow: 1;
+  padding: 0 20px;
+}
+
+.route__search {
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 15px;
+}
+
+.route__list {
+  padding: 10px 0;
+}
+
+.route__list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.route__remove {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid grey;
+  padding: 0;
+  margin-left: 15px;
+}
