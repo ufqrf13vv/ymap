@@ -14,7 +14,7 @@ class MainMap extends Component {
 
   render() {
     const { points, center } = this.props;
-    const mapState =  {
+    const mapState = {
       center: center,
       zoom: 10
     };
@@ -35,7 +35,7 @@ class MainMap extends Component {
                   properties={{ balloonContent: point.name }}
                   options={{ iconColor: '#072f18', draggable: true }}
                   modules={[ 'geoObject.addon.balloon', 'geoObject.addon.hint' ]}
-                  onGeometryChange={event => {
+                  onDragend={event => {
                     this.onPlacemarkDrag(
                       point.id, 
                       event.originalEvent.target.geometry.getCoordinates()

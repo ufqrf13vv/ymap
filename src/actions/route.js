@@ -13,7 +13,10 @@ export const addPoint = point => {
 export const updatePointCoords = (id, coords) => {
 	return {
 		type: 'UPDATE_POINT_COORDS',
-		data: { id, coords }
+		data: { 
+      id, 
+      coords 
+    }
 	}
 };
 
