@@ -23,3 +23,5 @@
 
 Для запуска тестов
 * npm test
+
+[Демо](https://ymap-fnbox.herokuapp.com/)
