@@ -30,8 +30,8 @@ describe('Route actions',() => {
 
 	it('Update point coordinates', () => {
 		const expectedAction = {
-				type: UPDATE_POINT_COORDS,
-				data: { id: 'id1', coords: [55.155, 37.155] }
+			type: UPDATE_POINT_COORDS,
+			data: { id: 'id1', coords: [55.155, 37.155] }
 		};
 
 		expect(updatePointCoords('id1', [55.155, 37.155])).toEqual(expectedAction);
@@ -39,8 +39,8 @@ describe('Route actions',() => {
 
 	it('Remove point from route', () => {
 		const expectedAction = {
-				type: REMOVE_POINT,
-				data: 'id1'
+			type: REMOVE_POINT,
+			data: 'id1'
 		};
 		
 		expect(removePoint('id1')).toEqual(expectedAction);
@@ -53,12 +53,12 @@ describe('Route actions',() => {
 			coords: [55.155, 37.155]
 		}
 		const expectedAction = {
-				type: CHANGE_ROUTE,
-				data: {
-					id: 'id1',
-					name: 'name',
-					coords: [55.155, 37.155]
-				}
+			type: CHANGE_ROUTE,
+			data: {
+				id: 'id1',
+				name: 'name',
+				coords: [55.155, 37.155]
+			}
 		};
 		
 		expect(changeRoute(data)).toEqual(expectedAction);
