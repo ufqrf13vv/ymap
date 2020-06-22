@@ -1,20 +1,20 @@
 html {
-	height: 100%;
-	box-sizing: border-box;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 *, 
 *::before, 
 *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
   height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
@@ -31,7 +31,7 @@ code {
 
 .container {
   height: 100%;
-	margin: 0 auto;
+  margin: 0 auto;
 }
 
 @media (max-width: 799px) {
@@ -78,9 +78,9 @@ h1 {
 }
 
 .main-wrapper {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 @media (max-width: 799px) {

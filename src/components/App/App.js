@@ -6,6 +6,8 @@ import craeteStore from '../../createStore';
 import Route from '../Route/Route';
 import MainMap from '../Map/MainMap';
 
+import './index.css';
+
 const store = craeteStore();
 
 function App() {

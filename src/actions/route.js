@@ -11,13 +11,13 @@ export const addPoint = point => {
 }
 
 export const updatePointCoords = (id, coords) => {
-	return {
-		type: 'UPDATE_POINT_COORDS',
-		data: { 
+  return {
+    type: 'UPDATE_POINT_COORDS',
+    data: { 
       id, 
       coords 
     }
-	}
+  }
 };
 
 export const removePoint = id => {
